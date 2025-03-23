@@ -24,17 +24,21 @@ flutter run<br>
 
 📸 Screenshots
 
-Home Screen
-![Home Screen](screenshots/1.jpg)
+Home Screen 👇
 
-Add new expenses
-![Home Screen](screenshots/2.jpg)
+<img src="screenshots/1.jpg" alt="Description" width="20%" height="20%" alignment = "center" >
 
-Categories
-![Home Screen](screenshots/3.jpg)
+Add new expenses 👇
 
-Expense Insights
-![Summary](screenshots/4.jpg)
+<img src="screenshots/2.jpg" alt="Description" width="20%" height="20%" alignment = "center" >
+
+Categories 👇
+
+<img src="screenshots/3.jpg" alt="Description" width="20%" height="20%" alignment = "center" >
+
+Expense Insights 👇
+
+<img src="screenshots/4.jpg" alt="Description" width="20%" height="20%" alignment = "center" >
 
 🤝 Contributing<br>
 Feel free to contribute by submitting a pull request!
