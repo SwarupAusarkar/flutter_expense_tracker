@@ -24,7 +24,19 @@ flutter run<br>
 
 📸 Screenshots
 
-Home Screen 👇
+<table>
+  <tr>
+    <td><img src="screenshots/1.jpg" width="250"/></td>
+    <td><img src="screenshots/2.jpg" width="250"/></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/3.jpg" width="250"/></td>
+    <td><img src="screenshots/4.jpg" width="250"/></td>
+  </tr>
+</table>
+
+
+<!-- Home Screen 👇
 
 <img src="screenshots/1.jpg" alt="Description" width="30%" height="30%" alignment = "center" >
 
@@ -38,7 +50,7 @@ Categories 👇
 
 Expense Insights 👇
 
-<img src="screenshots/4.jpg" alt="Description" width="30%" height="30%" alignment = "center" >
+<img src="screenshots/4.jpg" alt="Description" width="30%" height="30%" alignment = "center" > -->
 
 🤝 Contributing<br>
 Feel free to contribute by submitting a pull request!
