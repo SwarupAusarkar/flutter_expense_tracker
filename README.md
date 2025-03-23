@@ -1,16 +1,41 @@
-# expense_tracker
+💸 Expense Tracker
+A sleek and modern Flutter app to track your daily expenses efficiently, with insightful analytics and a dark theme! 🌙✨
 
-A new Flutter project.
+🚀 Features
+✅ Add, Edit & Delete Expenses 📊
+✅ Category-wise Expense Tracking 🏷️
+✅ Dark Mode Support 🌑
+✅ Summary Cards for Daily, Weekly & Monthly Expenses 📆
+✅ Insights with Charts 📈
+✅ Persistent Storage using Hive 🗄️
 
-## Getting Started
+🛠️ Technologies Used
+Flutter (UI Framework)
 
-This project is a starting point for a Flutter application.
+Dart (Programming Language)
 
-A few resources to get you started if this is your first Flutter project:
+Provider (State Management)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Hive (Local Database)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🎮 Installation
+To run the app locally:
+    git clone https://github.com/your-username/expense-tracker.git
+    cd expense-tracker
+    flutter pub get
+    flutter run
+
+📂 Folder Structure
+    📂 expense-tracker
+    ┣ 📂 lib
+    ┃ ┣ 📂 models          # Expense Model
+    ┃ ┣ 📂 screens         # UI Screens
+    ┃ ┣ 📂 providers       # State Management
+    ┃ ┗ 📂 widgets         # Reusable Components
+    ┣ 📂 assets            # App Icons & Images
+    ┣ 📜 pubspec.yaml      # Dependencies
+    ┣ 📜 main.dart         # Entry Point
+    ┗ 📜 README.md         # You’re here! 🤓
+    
+🤝 Contributing
+Feel free to contribute by submitting a pull request!
