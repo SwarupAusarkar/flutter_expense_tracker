@@ -5,7 +5,6 @@ import '../models/expense.dart';
 class ExpenseProvider with ChangeNotifier {
   final Box<Expense> _expenseBox;
 
-  // Update the constructor to accept the expenseBox
   ExpenseProvider(this._expenseBox);
 
   List<Expense> get expenses => _expenseBox.values.toList();
@@ -21,13 +20,14 @@ class ExpenseProvider with ChangeNotifier {
   }
 
   double getTotalExpensesForDays(int days) {
-  DateTime now = DateTime.now();
-  DateTime cutoffDate = DateTime(now.year, now.month, now.day).subtract(Duration(days: days - 1));
+    DateTime now = DateTime.now();
+    DateTime startDate = DateTime(now.year, now.month, now.day).subtract(Duration(days: days - 1));
 
-  return expenses
-      .where((expense) => expense.date.isAfter(cutoffDate))
-      .fold(0.0, (sum, expense) => sum + expense.amount);
-}
+    return expenses
+        .where((expense) => expense.date.isAtSameMomentAs(startDate) || expense.date.isAfter(startDate))
+        .fold(0.0, (sum, expense) => sum + expense.amount);
+  }
+
 
   Map<String, double> getCategoryWiseExpenses() {
     Map<String, double> categoryTotals = {};
