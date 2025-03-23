@@ -26,19 +26,19 @@ flutter run<br>
 
 Home Screen 👇
 
-<img src="screenshots/1.jpg" alt="Description" width="20%" height="20%" alignment = "center" >
+<img src="screenshots/1.jpg" alt="Description" width="30%" height="30%" alignment = "center" >
 
 Add new expenses 👇
 
-<img src="screenshots/2.jpg" alt="Description" width="20%" height="20%" alignment = "center" >
+<img src="screenshots/2.jpg" alt="Description" width="30%" height="30%" alignment = "center" >
 
 Categories 👇
 
-<img src="screenshots/3.jpg" alt="Description" width="20%" height="20%" alignment = "center" >
+<img src="screenshots/3.jpg" alt="Description" width="30%" height="30%" alignment = "center" >
 
 Expense Insights 👇
 
-<img src="screenshots/4.jpg" alt="Description" width="20%" height="20%" alignment = "center" >
+<img src="screenshots/4.jpg" alt="Description" width="30%" height="30%" alignment = "center" >
 
 🤝 Contributing<br>
 Feel free to contribute by submitting a pull request!
