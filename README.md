@@ -22,5 +22,19 @@ cd expense_tracker<br>
 flutter pub get<br>
 flutter run<br>
 
+📸 Screenshots
+
+Home Screen
+![Home Screen](screenshots/1.jpg)
+
+Add new expenses
+![Home Screen](screenshots/2.jpg)
+
+Categories
+![Home Screen](screenshots/3.jpg)
+
+Expense Insights
+![Summary](screenshots/4.jpg)
+
 🤝 Contributing<br>
 Feel free to contribute by submitting a pull request!
