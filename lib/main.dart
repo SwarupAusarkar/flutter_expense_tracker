@@ -8,7 +8,7 @@ import 'models/expense.dart';
 import 'providers/expense_provider.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+WidgetsFlutterBinding.ensureInitialized();
   await Hive.initFlutter();
 
   try {
@@ -28,7 +28,7 @@ class ExpenseTrackerApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      create: (context) => ExpenseProvider(expenseBox), // Pass the box to the provider
+      create: (context) => ExpenseProvider(expenseBox),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData.dark().copyWith(
@@ -37,8 +37,7 @@ class ExpenseTrackerApp extends StatelessWidget {
         home: HomeScreen(),
         routes: {
           '/add-expense': (context) => AddExpenseScreen(),
-          '/insights': (context) => InsightsScreen(), // Add the InsightsScreen route
-
+          '/insights': (context) => InsightsScreen(),
         },
       ),
     );
