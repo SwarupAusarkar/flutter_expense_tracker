@@ -15,12 +15,10 @@ A sleek/simple and modern Flutter app to track your daily expenses efficiently, 
     3. Provider (State Management)<br>
     4. Hive (Local Database)<br>
 
-🎮 Installation -<br>
-To run the app locally :<br>
-git clone https://github.com/SwarupAusarkar/flutter_expense_tracker.git<br>
-cd expense_tracker<br>
-flutter pub get<br>
-flutter run<br>
+📜 Project Flowchart -<br>
+The architecture and flow of the app are visually represented below:<br>
+
+<img src="screenshots\expense_tracker_flowchart.png" width="60%"/><br>
 
 📸 Screenshots
 
@@ -35,22 +33,12 @@ flutter run<br>
   </tr>
 </table>
 
-
-<!-- Home Screen 👇
-
-<img src="screenshots/1.jpg" alt="Description" width="30%" height="30%" alignment = "center" >
-
-Add new expenses 👇
-
-<img src="screenshots/2.jpg" alt="Description" width="30%" height="30%" alignment = "center" >
-
-Categories 👇
-
-<img src="screenshots/3.jpg" alt="Description" width="30%" height="30%" alignment = "center" >
-
-Expense Insights 👇
-
-<img src="screenshots/4.jpg" alt="Description" width="30%" height="30%" alignment = "center" > -->
+🎮 Installation -<br>
+To run the app locally :<br>
+git clone https://github.com/SwarupAusarkar/flutter_expense_tracker.git<br>
+cd expense_tracker<br>
+flutter pub get<br>
+flutter run<br>
 
 🤝 Contributing<br>
 Feel free to contribute by submitting a pull request!
